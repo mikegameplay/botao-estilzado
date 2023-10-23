@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    color: white;
+    background-image: url(Design\ sem\ nome\ \(7\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+.subtitulo {
+    font-family:sans-serif
+}
+.container{
+    text-align: center;
+}
+
+
+ #meuBotao {
+    text-align: center;
+    background-color: rgb(119, 165, 207);
+    border: 5px solid; color: rgb(236, 236, 255);
+    width: 300px;
+    height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-radius: 50px;
+    transition: background-color 1s ease, transform 1s ease;
+}
+
+#meuBotao:hover {
+    background-color: rgb(156, 133, 133);
+    transform: scale(1.05);
+
+}
+
+.imagemzoom {
+    transition: transform 0.3s ease; /* Adiciona uma transição suave de 0,3 segundos na propriedade transform */
+  }
+  
+  .imagemzoom:hover {
+    transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse passa por cima */
+    /* Outros estilos, como sombra ou borda, se necessário */
+  }
+
+  header {
+    background: linear-gradient(to left, #8f7479, #593C41 );
+    color: rgb(48, 40, 40);
+    padding: 100px;
+    text-align: center;
+
+  }
+
+  .botaoinicio {
+  
+      background-color: #8f7479;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+  
+  }
